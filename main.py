@@ -195,6 +195,5 @@ class Game():
 
 pg.init()
 screen = pg.display.set_mode((402, 402))
-pg.display.set_caption("Mage Generator")
 game = Game(screen)
 game.main_loop()
